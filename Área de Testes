@@ -1,0 +1,64 @@
+"""
+renda_mes = -1 
+while renda_mes <= 0:
+    try: 
+        renda_mes = float(input("Digite sua renda mensal total (em R$): R$"))
+
+        if renda_mes < 0:
+            print("❌ Por favor, digite um valor válido para a renda mensal: R$")
+            renda_mes = -1
+        elif renda_mes == 0:
+            alterar_renda_mes = input("Você digitou 0,0 isso está certo? (sim/alterar)").strip().lower()
+            if alterar_renda_mes == "alterar":
+                renda_mes = -1
+            elif alterar_renda_mes == "Sim":
+                break
+            else:              
+                print("Digite apenas sim ou alterar")
+                renda_mes = -1
+        else:
+            break
+    except ValueError:
+         print("❌ Por favor, digite apenas números")
+         renda_mes = -1
+
+print(f"A renda mês é {renda_mes}")
+
+"""
+
+"""
+gastos_necessidades = -1
+while gastos_necessidades < 0:
+    try:
+        gastos_necessidades = float(input("Digite o valor gasto mensalmente com necessidades: R$"))
+        if gastos_necessidades < 0:
+           print("❌ Por favor, digite um valor válido para os gastos com necessidades!")
+        gastos_necessidades = -1
+    except ValueError:
+         print("❌ Por favor, digite apenas números")
+         renda_mes = -1
+    else:
+        break
+"""
+
+
+add_poupanca = -1
+add_valor_poupanca_ensal = 0 
+while add_poupanca < 0:
+    try:
+        add_poupanca_resposta = input("Consegue poupar algum valor mensalmente? (sim/não): ").strip().lower()
+        if add_poupanca_resposta == "não" or add_poupanca_resposta == "nao":
+            print("Certo! Mas lembre que é sempre bom poupar algo todo mês")
+            print("✅ Nenhum valor é polpado mensalmente")
+            add_valor_poupado_mensal = 0
+            add_valor_poupado_mensal = 1
+
+        elif add_poupanca_resposta == "sim": 
+                add_valor_poupado_mensal = float(input("Qual é o valor que é poupado mensalmente? R$"))
+                
+                print(f"O valor adicionado mensalmente é {add_valor_poupado_mensal:.2f}")
+        add_poupanca = 1
+
+    except ValueError:
+         print("Por favor digite apenas núeros)")
+         add_poupanca = -1
