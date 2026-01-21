@@ -107,4 +107,5 @@ print(f"🎮 Desejos: R$ {gastos_desejos:.2f} ({perc_desejos:.1f}%)")
 print(f"💰 Poupança: R$ {add_poupanca:.2f} ({perc_poupanca:.1f}%)")
 
 
-print ("dfghjkl")
+print ("dfghjklsdcvbjiuytfvbnkiuytrfvbkiuytfkiuytfgbnkiuytg")
+
