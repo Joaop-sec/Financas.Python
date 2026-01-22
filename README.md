@@ -6,11 +6,11 @@ Sistema simples em Python para análise e controle de gastos pessoais via interf
 Aplicação 100% em linha de comando que utiliza `print()` para exibição e estruturas condicionais (`if/else`) para lógica. Ideal para quem está começando com Python e quer entender conceitos básicos de programação e controle financeiro.
 
 ✨ Funcionalidades
-- 📊 Análise de renda versus gastos** - Comparação visual simples
-- 🏷️ Categorização de despesas** - Necessidades, desejos e poupança
+- 📊 Análise de renda versus gastos - Comparação visual simples
+- 🏷️ Categorização de despesas - Necessidades, desejos e poupança
 - 📈 Cálculo de porcentagens por categoria** - Percentual da renda em cada área
-- ⚠️ Diagnóstico financeiro automático** - Alertas baseados em regras simples
-- 💳 Controle de dívidas acumuladas** - Monitoramento básico
+- ⚠️ Diagnóstico financeiro automático - Alertas baseados em regras simples
+- 💳 Controle de dívidas acumuladas- Monitoramento básico
 
 🚀 Como Executar
 
