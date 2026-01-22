@@ -12,8 +12,6 @@ Aplicação 100% em linha de comando que utiliza `print()` para exibição e est
 - ⚠️ Diagnóstico financeiro automático - Alertas baseados em regras simples
 - 💳 Controle de dívidas acumuladas- Monitoramento básico
 
-🚀 Como Executar
-
 Pré-requisitos
 - Python 3.x instalado
 - Terminal/Command Prompt
