@@ -1,6 +1,6 @@
 💰 Sistema de Controle Financeiro Pessoal
 
-Sistema simples em Python para análise e controle de gastos pessoais via interface de linha de comando (CLI)**. Desenvolvido como parte do meu portfólio de projetos em Python.
+Sistema simples em Python para análise e controle de gastos pessoais via interface de linha de comando (CLI). Desenvolvido como parte do meu portfólio de projetos em Python.
 
 🖥️ Sobre o Projeto
 Aplicação 100% em linha de comando que utiliza `print()` para exibição e estruturas condicionais (`if/else`) para lógica. Ideal para quem está começando com Python e quer entender conceitos básicos de programação e controle financeiro.
